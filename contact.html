@@ -91,7 +91,13 @@
       <div class="col-md-4">
         <h2>Get in Contact With Us</h2>
         <p>We are committed to providing you with superior service. If you have a question or concern, please contact us. You may contact us by email, telephone, or in person at one of our many locations. </p>
-        <p><a class="btn btn-secondary" href="checking.html" role="button">View details &raquo;</a></p>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <input type="submit" value="Submit">
+          </form>
       </div>
     </div>
 
@@ -99,13 +105,7 @@
 
   </div> <!-- /container -->
 
-  <form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-  </form>
+
 
 </main>
 
